@@ -1,182 +1,181 @@
 body {
-    margin: 0;
-    font-family: 'Smythe', cursive;
-} 
-
-.container {
-    width: 600px;
-    margin: 0 auto;
+  margin: 0;
+  font-family: "Smythe", cursive;
 }
 
-header {    
-    background-image: url('./header-restaurant.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 10% 65% ;    
-    padding-left: 46px;  
-    padding-top: 40px;
-    padding-bottom: 57px;
-    color: #fff;  
-    
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("./header-restaurant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 65%;
+  padding-left: 46px;
+  padding-top: 40px;
+  padding-bottom: 57px;
+  color: #fff;
 }
 
 h1 {
-    font-size: 39px; 
-    font-weight: 400;    
-    margin: 0;
-    
+  font-size: 39px;
+  font-weight: 400;
+  margin: 0;
 }
 
 h2 {
-    font-size: 22px;
-    font-weight: 400; 
-    margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
 }
 
 h3 {
-    font-size: 28px;
-    margin: 0;
-    font-weight: 400;    
+  font-size: 28px;
+  margin: 0;
+  font-weight: 400;
 }
 
-.menu-items{
-    display: flex;
-    flex-direction: column;
-    margin: 0 35px;
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  margin: 0 35px;
 }
-.single-item{
-    display: flex;   
-    border-bottom: 1px solid #d2d2d2 ;
-    padding-top: 50px;
-    padding-bottom: 40px;
+.single-item {
+  display: flex;
+  border-bottom: 1px solid #d2d2d2;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
-.item-emoji{
-    font-size: 78px;
-    padding-right: 12px;    
+.item-emoji {
+  font-size: 78px;
+  padding-right: 12px;
 }
 
- 
-.ingredients{
-    font-size: 16px;
-    color: #8b8b8b;
-    margin: 0;
-    line-height: 24px; 
+.ingredients {
+  font-size: 16px;
+  color: #8b8b8b;
+  margin: 0;
+  line-height: 24px;
 }
 .price {
-    font-size: 20px;
-    line-height: 24px;
-    margin-top: 8px;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 8px;
 }
 
 .add-btn {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    align-self: center;
-    color: #3c3c3c;
-    background-color: #fff;
-    border: 1px solid #dedede;
-    margin: 5px 0 auto auto;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  color: #3c3c3c;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  margin: 5px 0 auto auto;
+  font-size: 32px;
+  font-weight: 200;
+  font-family: "Inter", sans-serif;
 }
 
-.order{    
-    display: none; /* will toggle to display: flex */
-    flex-direction: column;
-    margin: 45px 35px 0 35px;
-    font-size: 20px;
+.order {
+  display: none; /* will toggle to display: flex */
+  flex-direction: column;
+  margin: 45px 35px 0 35px;
+  font-size: 20px;
 }
 
-.order h3{
-   align-self: center;
+.order h3 {
+  align-self: center;
 }
 .order-item {
-    display: flex;
-    margin-top: 20px;
+  display: flex;
+  margin-top: 20px;
 }
-.item-price{
-    margin: auto 5px auto auto;
+.item-price {
+  margin: auto 5px auto auto;
 }
 .remove-btn {
-    border: none;
-    background: #fff;
-    color: #bbb;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    margin-left: 10px;
+  border: none;
+  background: #fff;
+  color: #bbb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
 }
-.total-price{
-    display: flex;
-    border-top: 1px solid #393333;
-    margin-top: 30px;
+.total-price {
+  display: flex;
+  border-top: 1px solid #393333;
+  margin-top: 30px;
 }
-#total-price{
-    margin: auto 5px auto auto;
+#total-price {
+  margin: auto 5px auto auto;
 }
 .order-btn {
-    border-radius: 3px;
-    border: none;
-    background: #16DB99;
-    /* shadow/sm */
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-    color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    margin: 53px 0;
+  border-radius: 3px;
+  border: none;
+  background: #16db99;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin: 53px 0;
 }
-.payment-modal{
-    display: none;
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    background: #fff;
-    height: 540px;
-    width: 524px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    box-shadow: 0px 0px 6px 2px #666;
+.payment-modal {
+  display: none;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  height: 540px;
+  width: 524px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px 2px #666;
 }
 
-.modal-inner{
-    width: 464px;
-    margin: 0 auto;
+.modal-inner {
+  width: 464px;
+  margin: 0 auto;
 }
 
 .modal-heading {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
-    text-align: center;
-    margin: 40px 0;
-    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin: 40px 0;
 }
 
-input{
-    box-sizing: border-box;
-    margin-top: 23px;
-    padding: 25px;
-    width: 100%;
-    border-radius: 4px;
-    border: 1px solid #757575;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px; 
+input {
+  box-sizing: border-box;
+  margin-top: 23px;
+  padding: 25px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #757575;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
 
-.modal-btn{
-    width: 100%;
-    font-size: 20px;
-    /* margin-bottom: 30px;  */
+.modal-btn {
+  width: 100%;
+  font-size: 20px;
+  /* margin-bottom: 30px;  */
 }
 
-.thanks-msg {    
-    border-radius: 3px;
-    background-color: #ECFDF5;
-    color: #065F46;
-    font-size: 32px;
-    text-align: center;
-    padding: 30px;
-    margin: 45px 0;
+.thanks-msg {
+  border-radius: 3px;
+  background-color: #ecfdf5;
+  color: #065f46;
+  font-size: 32px;
+  text-align: center;
+  padding: 30px;
+  margin: 45px 0;
 }
